@@ -13,5 +13,3 @@ class Solution(object):
         right=word[(loc+1):]
         left=left[len(left)::-1]
         return left+right
-
-    

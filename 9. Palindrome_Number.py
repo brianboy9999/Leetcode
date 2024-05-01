@@ -23,10 +23,4 @@ class Solution(object):
             if (num==renum):
                 return True
             else:
-                return False 
-
-
-
-
-
-
+                return False
