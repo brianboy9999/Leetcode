@@ -4,7 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        ans=[]
+        ans=0
         for i in range(0,len(nums)-1):
             for j in range(i+1,len(nums)):
                 if nums[i]==nums[j]:
