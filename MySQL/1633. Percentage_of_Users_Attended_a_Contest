@@ -1,0 +1,4 @@
+SELECT a.contest_id, ROUND((COUNT(DISTINCT a.user_id) / (SELECT COUNT(*) FROM Users)) * 100, 2) AS percentage
+  FROM Register a
+ GROUP BY a.contest_id
+ ORDER BY percentage DESC, contest_id ASC
